@@ -4,4 +4,9 @@ Los siguientes problemas tienen el objetivo de ilustrar cómo se compila un cód
 
 El primer problema calcula el máximo de tres números enteros evaluando tres condiciones que determinan si un número es mayor que los otros dos. El caso por omisión implica que los tres números son iguales, por lo tanto, cualquiera de los tres es el máximo.
 
-El segundo problema calcula el tipo de triángulo que corresponde a tres números enteros sin signo. Este calculo se realiza encontrando el máximo de los tres números enteros para determinar si los lados corresponden a los de un triángulo, de ser así, entonces se determina si el triángulo es equilatero, escaleno o isósceles con base en las longitudes de los lados; en caso contrario, se asume los enteros no corresponden a los lados de un triángulo.
+El segundo problema calcula el tipo de triángulo que corresponde a tres números enteros sin signo. Este calculo se realiza encontrando el máximo de los tres números enteros para determinar si los lados corresponden a los de un triángulo, de ser así, entonces se determina si el triángulo es equilatero, escaleno o isósceles con base en las longitudes de los lados; en caso contrario, se asume los enteros no corresponden a los lados de un triángulo. La variable que almacena el tipo de triángulo se llama *type*; los valores que puede tomar son
+
+- cero, si los números no corresponden a los lados de un triángulo,
+- uno, si los lados corresponden a un triángulo escaleno,
+- dos, si los lados corresponden a un triángulo isósceles y
+- tres, si los lados corresponden a un triángulo equilátero.
